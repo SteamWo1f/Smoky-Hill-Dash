@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Customize the favicon for your website -->
+    <link rel="icon" type="image/x-icon" href="FAVICON URL">
+    <title>Your Website Title</title>
+    <style>
+        /* Reset default browser styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            /* Set the background image for the body */
+            background-image: url('YOUR_BACKGROUND_IMAGE_URL'); /* Replace with your background image URL */
+            background-size: cover;
+        }
+
+        /* Create a central dashboard layout */
+        .dashboard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* Ensure content is vertically centered */
+            min-height: 100vh;
+            /* Add a translucent background with blur effect */
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            background-size: cover;
+        }
+
+        /* Customize the main heading style */
+        h1 {
+            font-size: 48px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        /* Customize the paragraph text style */
+        p {
+            font-size: 18px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        /* Create a grid for buttons */
+        .button-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        /* Customize the button style */
+        .button-grid a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 30px;
+            font-size: 24px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            text-decoration: none;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            flex-basis: auto;
+        }
+
+        /* Style for optional button icons */
+        .button-grid a img {
+            width: auto;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        /* Button hover effect */
+        .button-grid a:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        /* Create a text card or description */
+        .text-card {
+            width: 80%;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        /* Customize the text card heading style */
+        .text-card h2 {
+            font-size: 24px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+
+        /* Customize the text card paragraph style */
+        .text-card p {
+            font-size: 18px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 768px) {
+            .dashboard {
+                padding: 20px;
+            }
+
+            /* Adjust button grid for smaller screens */
+            .button-grid {
+                flex-direction: column;
+            }
+
+            .button-grid a {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="dashboard">
+    <br>
+    <!-- Uncomment below for logo or custom image -->
+    <!-- <img id="logo" src="LOGO URL" width="150" alt="Logo"> -->
+    <br>
+    <h1>Your Main Headline</h1>
+    <br>
+    <br>
+    <div class="button-grid">
+        <!-- Replace href attributes with your custom links -->
+        <a target="_blank" href="https://example.com/">Button 1</a>
+        <a target="_blank" href="https://example.com/">Button 2</a>
+        <a target="_blank" href="https://example.com/">Button 3</a>
+        <a target="_blank" href="https://example.com/">Button 4</a>
+    </div>
+
+    <!-- Uncomment below for text card / description -->
+    <!--
+    <div class="text-card">
+        <h2>What is a Self-Hosted Server?</h2>
+        <p>A self-hosted server is a server that is hosted and managed by the user themselves, rather than relying on a third-party hosting service. It allows users to have full control over their data and applications.</p>
+    </div>
+    -->
+</div>
+</body>
+</html>
