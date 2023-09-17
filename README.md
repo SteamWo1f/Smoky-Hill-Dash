@@ -30,7 +30,7 @@ To use this template, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE]([LICENSE.md](https://github.com/SteamWo1f/Smoky-Hill-Dash/blob/main/LICENSE)) file for details.
 
 ## Other
 
