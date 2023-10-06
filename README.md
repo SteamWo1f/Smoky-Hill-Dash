@@ -1,6 +1,8 @@
 # Smoky Hill Dashboard
 A single html file that you can use as a link dashboard for anything
 
+[![Generic badge](https://img.shields.io/badge/DEMO-e98416.svg)](https://steamwo1f.github.io/Smoky-Hill-Dash/)
+
 ## Features
 
 - Easy customization: You can replace text, background images, and button links to tailor the website to your needs.
