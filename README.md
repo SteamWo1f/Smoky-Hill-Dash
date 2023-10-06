@@ -24,19 +24,39 @@ A single html file that you can use as a link dashboard for anything
 
 ## Getting Started
 
-To use this template, follow these steps:
+Welcome to your first steps with the Smoky Hill Dashboard! Here's how you can get started:
 
-1. Clone this repository to your local machine or download the ZIP file.
-2. Open the `index.html` file in your favorite text editor or code editor.
-3. Customize the following elements to make the website your own:
-   - Favicon: Replace the `FAVICON URL` in the `<link>` tag.
-   - Background Image: Replace `YOUR_BACKGROUND_IMAGE_URL` in the CSS styles.
-   - Main Heading: Change the text inside the `<h1>` tag.
-   - Button Links: Update the `href` attributes in the button links.
-   - Optional Logo: Uncomment and replace the `<img>` tag for a custom logo.
-   - Optional Text Card: Uncomment and customize the text and heading inside the `.text-card` div.
-4. Save your changes.
+1. Get the Files
 
+Clone this repository to your local machine or download the ZIP file.
+
+2. Open the File
+
+Open the `index.html` file in your favorite text editor or code editor.
+
+3. Customize Your Dashboard
+
+Make the dashboard your own by customizing the following elements if you want to:
+
+- **Favicon**: Replace the `FAVICON URL` in the `<link>` tag.
+- **Background Image**: Replace the link for the background image in the CSS styles if you want a diffrent background image.
+- **Main Heading**: Change the text inside the `<h1>` tag.
+- **Button Links**: Update the `href` attributes in the button links.
+- **Optional Logo**: Uncomment and replace the `<img>` tag for a custom logo.
+- **Optional Text Card**: Uncomment and customize the text and heading inside the `.text-card` div.
+
+4. Save Your Changes
+
+Don't forget to save your changes!
+
+5. Deploy Your Dashboard
+
+Add the updated files to your web server's document root (e.g., `/var/www/html`). You can then view your new page at your web server's main IP (e.g., `192.168.0.1`) or if you put it in a subdirectory, you can view it at a URL like: `192.168.0.1/dash/index.html`.
+
+And that's it! Enjoy your new, personalized dashboard.
+
+
+---
 
 ## License
 
