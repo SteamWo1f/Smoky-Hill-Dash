@@ -5,8 +5,11 @@ A single html file that you can use as a link dashboard for anything
 
 ## Features
 
-- Easy customization: You can replace text, background images, and button links to tailor the website to your needs.
-- Responsive design: The template includes responsive styles for smaller screens, making it suitable for mobile devices.
+- Clean and Minimalist Design
+- Centralized Layout
+- Stylish Buttons
+- Optional Logo/Custom Image
+- Easy Link Customization
 
 ## Preview
 
